@@ -12,6 +12,7 @@ import time
 import csv
 import json
 
+from BicycleParameters.bicycle import sort_modes
 import CargoBikeModel as cbm
 
 
