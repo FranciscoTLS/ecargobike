@@ -67,7 +67,7 @@ def simulate_bikes(system_params, bike_floor_height, cargo_space, steering_angle
     total_iterations = len(bike_floor_height)*len(cargo_space)*len(steering_angle)
 
     r_RW = system_params['frame']['rear_wheel_radius']
-    r_RD = system_params['frame']['front_wheel_radius']
+    r_FW = system_params['frame']['front_wheel_radius']
     L = system_params['frame']['bars_lengths']
     d_bw = system_params['frame']['d_bw']
 
